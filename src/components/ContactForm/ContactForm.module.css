@@ -1,0 +1,74 @@
+.form {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 30px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.label {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.inputName {
+  display: block;
+  margin-left: 30px;
+  padding: 5px;
+  width: 100%;
+}
+
+.inputNumber {
+  display: block;
+  margin-left: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.addBtn {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 6px;
+  border: 1px grey solid;
+  padding: 10px;
+  background-image: linear-gradient(blue, blue);
+  box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.addBtn:hover {
+  background-image: linear-gradient(#2e0cee, #351ff8);
+  text-decoration: none;
+}
+
+.addBtn:active {
+  background-image: linear-gradient(#230ca3, #1a0ba5);
+  outline: none;
+}
+
+@media screen and (min-width: 480px) {
+  .form {
+    width: 350px;
+    margin: 0;
+  }
+
+  .label {
+    font-style: 20px;
+  }
+
+  .inputName,
+  .inputNumber {
+    width: 240px;
+  }
+}

@@ -1,0 +1,68 @@
+@import-normalize;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: black;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  margin: 30px 10px;
+  border: 1px solid black;
+  border-radius: 14px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0.25rem 0.25rem 1rem yellow, -0.25rem -0.25rem 1rem yellow;
+}
+
+@media screen and (min-width: 480px) {
+  .wrapper {
+    margin: 30px auto;
+  }
+}
+
+.header-section {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.main-section {
+  padding-top: 30px;
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto 50px;
+}
+
+.page-title {
+  font-size: 30px;
+  margin: 10px auto 30px;
+}

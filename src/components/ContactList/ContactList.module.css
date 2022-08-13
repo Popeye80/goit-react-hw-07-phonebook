@@ -1,0 +1,14 @@
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.emptyFilter {
+  font-size: 20px;
+}
